@@ -17,6 +17,13 @@
   
   dotnet run
 
-
  **Terminal ekranında beliren `http://localhost:5000` adresini tarayıcınızda açarak web sitesini görüntüleyebilirsiniz.
+ ---
+
+## Admin(Yönetici) Hesap Bilgileri
+
+Uygulama ilk kez çalıştırıldığında, sistemi yönetici rolüyle test edebilmeniz için otomatik olarak bir personel hesabı oluşturulmaktadır. Panele giriş yapmak için aşağıdaki bilgileri kullanabilirsiniz:
+
+* **E-posta:** `admin@universite.edu.tr`
+* **Şifre:** `123456`
 
