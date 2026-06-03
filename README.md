@@ -1,25 +1,21 @@
 # Üniversite SSS Platformu
 
-## 🚀 Kurulum ve Çalıştırma Rehberi
+**1. Projeyi Bilgisayarınıza İndirin**
+* Bu sayfanın sağ üst köşesinde bulunan yeşil renkli **"<> Code"** butonuna tıklayın.
+* Açılan menüden **"Download ZIP"** seçeneğini seçerek projeyi indirin.
 
-Projeyi kendi bilgisayarınızda (localhost) test etmek için terminalinizi (CMD, PowerShell veya VS Code Terminal) açıp aşağıdaki 3 adımı sırasıyla uygulamanız yeterlidir:
+**2. Dosyaları Klasöre Çıkartın**
+* İnen ZIP dosyasına sağ tıklayın ve "Buraya Çıkart" veya "Klasöre Ayıkla" seçeneği ile projeyi sıkıştırılmış dosyadan normal bir klasör haline getirin.
 
-### Adım 1: Projeyi İndirin
-Kodların bir kopyasını bilgisayarınıza indirmek için şu komutu çalıştırın:
-\`\`\`bash
-git clone https://github.com/KULLANICI_ADIN/UniversiteSssPlatform.git
-\`\`\`
+**3. Terminali (CMD) Proje Dizininde Açın**
+* Çıkarttığınız proje klasörünün içine girin (`Program.cs` dosyasını gördüğünüz ana dizinde olmalısınız).
+* Açık olan klasör penceresinin en üstündeki **adres çubuğuna** tıklayın.
+* Oradaki dosya yolunu tamamen silip yerine sadece **`cmd`** yazın ve **Enter**'a basın. *(Bu pratik işlem, terminali doğrudan projenin bulunduğu klasörde açacaktır).*
 
-### Adım 2: Klasöre Girin
-İndirme işlemi bittikten sonra projenin bulunduğu klasöre geçiş yapın:
-\`\`\`bash
-cd UniversiteSssPlatform
-\`\`\`
+**4. Uygulamayı Başlatın**
+* Açılan siyah terminal ekranına aşağıdaki komutu yazın ve Enter'a basın:
+  dotnet run
 
-### Adım 3: Projeyi Başlatın
-Uygulamayı ayağa kaldırmak için son olarak şu komutu girin:
-\`\`\`bash
-dotnet run
-\`\`\`
 
-🎉 **Sonuç:** Birkaç saniye içinde terminal ekranında `Now listening on: http://localhost:XXXX` şeklinde bir adres belirecektir. Tarayıcınızı açıp o adrese giderek web sitemizi inceleyebilirsiniz. (Uygulama, gerekli örnek verileri ve Admin hesabını ilk açılışta otomatik olarak oluşturacaktır).
+ **Terminal ekranında beliren `http://localhost:5000` adresini tarayıcınızda açarak web sitesini görüntüleyebilirsiniz.
+
