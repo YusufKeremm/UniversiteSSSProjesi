@@ -14,6 +14,7 @@
 
 **4. Uygulamayı Başlatın**
 * Açılan siyah terminal ekranına aşağıdaki komutu yazın ve Enter'a basın:
+  
   dotnet run
 
 
