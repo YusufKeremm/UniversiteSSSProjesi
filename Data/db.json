@@ -1,0 +1,50 @@
+{
+  "users": [
+    {
+      "id": "usr_cd2e4b8a-9452-4765-b1df-4c7cdf9ebd49",
+      "fullName": "Sistem Admin",
+      "email": "admin@universite.edu.tr",
+      "passwordHash": "soXiPLArf2kURHszGWbROA==.zPUSA96q5XoWyfbjUWZJAZnpZ6blBPGI0S9PuX9gHm8=",
+      "role": "admin",
+      "createdAt": "2026-06-01T17:32:06.4139745Z"
+    },
+    {
+      "id": "usr_d8d80467-a667-4365-b167-0de21e2739be",
+      "fullName": "yusuf",
+      "email": "yusuf@gmail.com",
+      "passwordHash": "E0UWzdt8BwWZea7ZSsX2LA==.ZK/JRuCx1UUKkIK/gNzqktupnLczPpaUl0HM1J4jEYE=",
+      "role": "student",
+      "createdAt": "2026-06-01T19:51:23.1746248Z"
+    }
+  ],
+  "faqs": [],
+  "questionRequests": [
+    {
+      "id": "req_07e797e1-c6aa-4292-b46e-88ec5b8cfb86",
+      "question": "final s\u0131navlar\u0131 itiraz\u0131 nas\u0131l olur",
+      "details": "",
+      "topic": "finaller",
+      "requestedBy": "usr_cd2e4b8a-9452-4765-b1df-4c7cdf9ebd49",
+      "status": "rejected",
+      "reviewNote": "Uygun bulunmad\u0131",
+      "moderatedBy": "usr_cd2e4b8a-9452-4765-b1df-4c7cdf9ebd49",
+      "publishedFaqId": null,
+      "createdAt": "2026-06-01T19:21:12.1362385Z",
+      "updatedAt": "2026-06-01T19:21:20.4446688Z",
+      "history": [
+        {
+          "action": "created",
+          "by": "usr_cd2e4b8a-9452-4765-b1df-4c7cdf9ebd49",
+          "at": "2026-06-01T19:21:12.1362385Z",
+          "note": "Soru talebi olu\u015Fturuldu"
+        },
+        {
+          "action": "rejected",
+          "by": "usr_cd2e4b8a-9452-4765-b1df-4c7cdf9ebd49",
+          "at": "2026-06-01T19:21:20.4446688Z",
+          "note": "Uygun bulunmad\u0131"
+        }
+      ]
+    }
+  ]
+}

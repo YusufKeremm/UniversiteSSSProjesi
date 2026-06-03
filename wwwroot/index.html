@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Üniversite SSS Platformu</title>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>Üniversite SSS Platformu</h1>
+        <p>Öğrenciler ve adaylar için hızlı soru-cevap platformu</p>
+      </header>
+      <section class="card">
+        <h2>Giriş / Kayıt</h2>
+        <div class="row">
+          <input id="fullName" placeholder="Ad Soyad (kayıt için)" />
+          <input id="email" placeholder="E-posta" />
+          <input id="password" type="password" placeholder="Şifre" />
+        </div>
+        <div class="row">
+          <button id="registerBtn">Kayıt Ol</button>
+          <button id="loginBtn">Giriş Yap</button>
+          <button id="logoutBtn" class="secondary">Çıkış</button>
+        </div>
+        <p id="authStatus" class="muted"></p>
+      </section>
+      <section class="card">
+        <h2>SSS Arama</h2>
+        <div class="row">
+          <input id="searchInput" placeholder="Soru, cevap veya konu ara..." />
+          <input id="topicInput" placeholder="Konu filtresi" />
+          <button id="searchBtn">Ara</button>
+        </div>
+        <div id="faqList"></div>
+      </section>
+      <section class="card">
+        <h2>Yeni Soru Talebi</h2>
+        <div class="col">
+          <input id="reqTopic" placeholder="Konu" />
+          <input id="reqQuestion" placeholder="Sorunuz" />
+          <textarea id="reqDetails" placeholder="Ek açıklama (isteğe bağlı)"></textarea>
+          <button id="sendRequestBtn">Talep Gönder</button>
+        </div>
+      </section>
+      <section class="card hidden" id="adminFaqCard">
+        <h2>Admin — SSS Yönetimi</h2>
+        <div class="col">
+          <input id="adminTopic" placeholder="Konu" />
+          <input id="adminQuestion" placeholder="Soru" />
+          <textarea id="adminAnswer" placeholder="Cevap"></textarea>
+          <button id="addFaqBtn">SSS Ekle</button>
+        </div>
+      </section>
+      <section class="card">
+        <h2>Soru Talepleri ve Geçmiş</h2>
+        <button id="loadRequestsBtn" class="secondary">Talepleri Yenile</button>
+        <div id="requestsList"></div>
+      </section>
+    </div>
+    <script src="/app.js"></script>
+  </body>
+</html>
