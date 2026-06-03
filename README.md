@@ -1,31 +1,25 @@
 # Üniversite SSS Platformu
 
-Web tabanlı sıkça sorulan sorular uygulaması. Öğrenciler ve adaylar kayıt olup SSS arayabilir; admin kullanıcılar içerik yönetimi ve soru taleplerini onaylayabilir.
+## 🚀 Kurulum ve Çalıştırma Rehberi
 
-## Gereksinimler
+Projeyi kendi bilgisayarınızda (localhost) test etmek için terminalinizi (CMD, PowerShell veya VS Code Terminal) açıp aşağıdaki 3 adımı sırasıyla uygulamanız yeterlidir:
 
-- .NET 8 SDK
+### Adım 1: Projeyi İndirin
+Kodların bir kopyasını bilgisayarınıza indirmek için şu komutu çalıştırın:
+\`\`\`bash
+git clone https://github.com/KULLANICI_ADIN/UniversiteSssPlatform.git
+\`\`\`
 
-## Çalıştırma
-
-```bash
+### Adım 2: Klasöre Girin
+İndirme işlemi bittikten sonra projenin bulunduğu klasöre geçiş yapın:
+\`\`\`bash
 cd UniversiteSssPlatform
-dotnet --version
-dotnet restore
+\`\`\`
+
+### Adım 3: Projeyi Başlatın
+Uygulamayı ayağa kaldırmak için son olarak şu komutu girin:
+\`\`\`bash
 dotnet run
-```
+\`\`\`
 
-Uygulama açıldıktan sonra terminalde görünen adresi tarayıcıda açın (genellikle `http://localhost:5000`).
-
-## Proje yapısı
-
-- `Program.cs` — API uçları ve kimlik doğrulama
-- `Models/` — veri modelleri
-- `Services/` — veri erişim katmanı
-- `Data/db.json` — kalıcı veri dosyası
-- `wwwroot/` — arayüz dosyaları
-
-## Test hesabı (admin)
-
-- E-posta: `admin@universite.edu.tr`
-- Şifre: `123456`
+🎉 **Sonuç:** Birkaç saniye içinde terminal ekranında `Now listening on: http://localhost:XXXX` şeklinde bir adres belirecektir. Tarayıcınızı açıp o adrese giderek web sitemizi inceleyebilirsiniz. (Uygulama, gerekli örnek verileri ve Admin hesabını ilk açılışta otomatik olarak oluşturacaktır).
